@@ -104,7 +104,7 @@ const App = () => {
             <Col lg={4} className="mb-5">
               <h3 className="fw-bold mb-4">Technical Expertise</h3>
               <div className="d-flex flex-wrap gap-2">
-                {['C', 'SQL', 'UI/UX', 'Python', 'Web Tech', 'Java'].map(skill => (
+                {['C', 'SQL', 'UI/UX', 'Python', 'Web Tech', 'Java','FullStack(MERN)'].map(skill => (
                   <span key={skill} className="badge border text-dark fw-normal px-3 py-2 bg-light">
                     {skill}
                   </span>
